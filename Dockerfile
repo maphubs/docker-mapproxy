@@ -1,6 +1,6 @@
 #--------- Generic stuff all our Dockerfiles should start with so we get caching ------------
 FROM python:2.7
-MAINTAINER Tim Sutton<tim@kartoza.com>
+MAINTAINER Kris Carle<kris@maphubs.com>
 
 # Use local cached debs from host (saves your bandwidth!)
 # Change ip below to that of your apt-cacher-ng host
